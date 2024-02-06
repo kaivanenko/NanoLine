@@ -1,0 +1,35 @@
+.App-header {
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(83, 13%, 52%);
+    padding: 10px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1/-1;
+    row-gap: 100px;
+
+  }
+
+  .header1 {
+    
+    width: 200px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(237, 226, 14);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align:center;
+    font-weight: bold;
+    
+
+ .headerlink {
+  text-decoration: none;
+  color: black;
+ }
+
+    /* display: table-cell;
+     vertical-align: middle; */
+     /* display: inline-block; */
+  /* margin-right: 100px;
+  margin-left: 35px; */
+    
+  }

@@ -1,32 +1,14 @@
 .App {
   display: grid;
-  grid-template-columns: 300px;
-  grid-template-rows: 1fr 960px;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 10fr;
   padding: 0px 0px;
   font-family: sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
   column-gap: 0px;
   row-gap: 0px;
-
-}
-
-.App-header {
-  color: hsl(0, 0%, 0%);
-  background-color: bisque;
-  padding: 5px;
-  grid-column-start: span 2;
-}
-
-.item {
   
-  border: 2px solid #000000;
-  background-color: hsl(85, 46%, 70%);
-  color: rgb(0, 0, 0);
-  padding: 10px;
-  grid-row-start: span 2;
+
 }
 
-.threejs {
-  background-color: hsl(0, 0%, 91%);
-}
